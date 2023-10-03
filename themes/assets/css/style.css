@@ -1,0 +1,12 @@
+.disabledCustom {
+	background-color: #efefef !important;
+}
+
+.requiredField:after {
+	content: "*";
+	position: relative;
+	font-size: inherit;
+	color: #f1416c;
+	padding-left: .25rem;
+	font-weight: 700
+}
